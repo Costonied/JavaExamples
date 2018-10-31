@@ -13,7 +13,7 @@ public class StringRepeat {
      */
 
     /*
-     *  Java >= 8
+     *  Java > 8
      */
         int n = 5;
         String source = "Source string";
