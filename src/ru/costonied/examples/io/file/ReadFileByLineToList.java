@@ -1,4 +1,4 @@
-package ru.costonied.examples.file;
+package ru.costonied.examples.io.file;
 
 import java.io.IOException;
 import java.nio.file.Files;

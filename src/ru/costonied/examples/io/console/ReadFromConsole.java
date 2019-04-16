@@ -1,4 +1,4 @@
-package ru.costonied.examples.console;
+package ru.costonied.examples.io.console;
 
 import java.io.BufferedReader;
 import java.io.IOException;
