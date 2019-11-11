@@ -2,6 +2,9 @@ package ru.costonied.examples.string;
 
 import org.apache.commons.codec.binary.Base64;
 
+/**
+ * Example how to decode string in Base64
+ */
 public class Base64Decode {
 
     public static void main(String[] args) {
