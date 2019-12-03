@@ -1,4 +1,5 @@
 # Idea files
-.idea/
-out/
-JavaExamples.iml
+/out/
+/.idea/
+/target/
+/JavaExamples.iml
