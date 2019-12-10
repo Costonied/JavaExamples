@@ -1,4 +1,4 @@
-package ru.costonied.examples.text.SimpleDateFormat;
+package ru.costonied.examples.dates.SimpleDateFormat;
 
 import java.text.DateFormatSymbols;
 import java.text.SimpleDateFormat;
