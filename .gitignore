@@ -3,3 +3,7 @@
 /.idea/
 /target/
 /JavaExamples.iml
+/common/common.iml
+/i18n/i18n.iml
+/common/target/*
+/i18N/target/*

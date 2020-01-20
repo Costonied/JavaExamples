@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Constructors using examples
+ * Constructors using ru.costonied.examples
  */
 
 public class SimpleDateFormatConstructors {

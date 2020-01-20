@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Java Code to sort Map by key value
- * Get examples from https://www.geeksforgeeks.org/sorting-hashmap-according-key-value-java/
+ * Get ru.costonied.examples from https://www.geeksforgeeks.org/sorting-hashmap-according-key-value-java/
  */
 class SortingHashMapAccordingKeys {
 
