@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
 /**
  * Simple example shows how to do internationalization (i18n) using Java Resource Bundle files
  */
-public class InternationalizationExample {
+public class ResourceBundleExample {
     public static void main(String[] args) {
 
         // Set several locales
