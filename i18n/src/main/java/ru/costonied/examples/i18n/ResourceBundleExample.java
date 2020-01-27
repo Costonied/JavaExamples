@@ -25,5 +25,9 @@ public class ResourceBundleExample {
         System.out.println(stringInRu);
         System.out.println(stringInEn);
 
+        // Showing how to get values from parent if specific bundle haven't a key
+        System.out.println(resourceBundleEn.getString("time"));     // default_time
+        System.out.println(resourceBundleEn.getString("river"));    // default_river
+
     }
 }
