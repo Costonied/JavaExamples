@@ -44,9 +44,11 @@ public class InstantExample {
 
         Instant nextDay = instantNow.plus(1, ChronoUnit.DAYS);
         Instant nextHour = instantNow.plus(1, ChronoUnit.HOURS);
+        Instant nextMillis = instantNow.plus(1, ChronoUnit.MILLIS);
 
         System.out.println("Next day from now: " + nextDay);
         System.out.println("Next hour from now: " + nextHour);
+        System.out.println("Next millisecond from now: " + nextMillis);
 
         /* Not allowed mathematics with Instant objects */
 
