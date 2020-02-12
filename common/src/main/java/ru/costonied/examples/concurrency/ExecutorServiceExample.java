@@ -11,9 +11,11 @@ import java.util.concurrent.ExecutorService;
 public class ExecutorServiceExample {
     public static void main(String[] args) {
 
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        ExecutorService executorService = null;
 
         try {
+            executorService = Executors.newSingleThreadExecutor();
+
             /* One way of execute command in new thread is using execute() */
             executorService.execute(
                     () -> System.out.println("Hello! I'm new executed thread and my Thread is " + Thread.currentThread().getName()));
@@ -23,7 +25,7 @@ public class ExecutorServiceExample {
             Future<?> future = executorService.submit(
                     () -> System.out.println("Hello! I'm new submitted thread and my Thread is " + Thread.currentThread().getName()));
         } finally {
-            executorService.shutdown();
+            if (executorService != null) executorService.shutdown();
         }
 
     }
