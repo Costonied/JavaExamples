@@ -1,4 +1,4 @@
-package ru.costonied.examples.concurrency;
+package ru.costonied.examples.concurrency.executors;
 
 
 import java.util.concurrent.Future;
