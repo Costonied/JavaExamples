@@ -29,5 +29,7 @@ public class MarkResetExample {
             System.out.print((char)reader.read());
         }
 
+        reader.close();
+
     }
 }

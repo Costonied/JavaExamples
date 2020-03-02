@@ -28,5 +28,7 @@ public class SkipExample {
 
         // Final output: "A:1 chars was skipped:C:2 chars was skipped:"
 
+        reader.close();
+
     }
 }
