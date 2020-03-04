@@ -1,4 +1,4 @@
-package ru.costonied.examples.io.file;
+package ru.costonied.examples.io.streams;
 
 import java.io.InputStream;
 import java.io.IOException;
