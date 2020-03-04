@@ -13,7 +13,7 @@ public class FileCopy
     public static void main(String[] args) throws IOException
     {
         // Should be in module resources
-        String inputFile = "test_data/io/file/input.txt";
+        String inputFile = "test_files/input.txt";
         // Save in target to not make a garbage in project structure
         String outputFile = "target/output.txt";
 
