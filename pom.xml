@@ -11,7 +11,8 @@
 	<modules>
 		<module>i18n</module>
         <module>common</module>
-    </modules>
+		<module>applet</module>
+	</modules>
 
 	<properties>
 

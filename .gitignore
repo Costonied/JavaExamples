@@ -1,9 +1,9 @@
 # Idea files
+*.iml
 /out/
 /.idea/
 /target/
-/JavaExamples.iml
-/common/common.iml
 /i18n/i18n.iml
 /common/target/*
+/applet/target/*
 /i18N/target/*
