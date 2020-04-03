@@ -1,5 +1,6 @@
 # Idea files
 *.iml
+*.log
 /out/
 /.idea/
 /target/

@@ -12,6 +12,7 @@
 		<module>i18n</module>
         <module>common</module>
 		<module>applet</module>
+		<module>database</module>
 	</modules>
 
 	<properties>
