@@ -2,6 +2,7 @@ package ru.costonied.examples.json;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import ru.costonied.examples.json.domain.DictionaryItem;
 
 public class JacksonFromStringToSimpleObjectExample {
     public static void main(String[] args) {
@@ -17,31 +18,5 @@ public class JacksonFromStringToSimpleObjectExample {
             System.out.println(e.getMessage());
         }
 
-    }
-}
-
-class DictionaryItem {
-
-    private String value;       // Ключ объекта словаря
-    private String title;       // Значение объекта словаря
-
-    public DictionaryItem() {
-        // nothing
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 }
