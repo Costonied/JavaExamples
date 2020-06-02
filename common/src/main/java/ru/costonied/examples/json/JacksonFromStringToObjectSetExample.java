@@ -3,7 +3,6 @@ package ru.costonied.examples.json;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import ru.costonied.examples.json.domain.DictionarySet;
-import ru.costonied.examples.json.domain.DictionaryItem;
 
 public class JacksonFromStringToObjectSetExample {
     public static void main(String[] args) {
