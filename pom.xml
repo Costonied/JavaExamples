@@ -13,7 +13,8 @@
         <module>common</module>
 		<module>applet</module>
 		<module>database</module>
-	</modules>
+        <module>autotest</module>
+    </modules>
 
 	<properties>
 
