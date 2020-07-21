@@ -14,7 +14,8 @@
 		<module>applet</module>
 		<module>database</module>
         <module>autotest</module>
-    </modules>
+		<module>powermock</module>
+	</modules>
 
 	<properties>
 
