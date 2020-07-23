@@ -22,9 +22,7 @@ public class VlcPlayerMinimalTest {
 
     @Test
     public void getVlcRcStatusTest() {
-//        VlcPlayerMinimal vlcPlayerSpy = PowerMockito.spy(new VlcPlayerMinimal());
         try {
-//            doReturn("{status: stopped, id: 2}").when(vlcPlayerSpy, "executeGetRequest", Mockito.any(), Mockito.any());
             String vlcRcStatus = vlcPlayerSpy.getVlcRcStatus();
             System.out.println(vlcRcStatus);
         } catch (Exception e) {
