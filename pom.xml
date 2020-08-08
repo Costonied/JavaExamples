@@ -11,7 +11,11 @@
 	<modules>
 		<module>i18n</module>
         <module>common</module>
-    </modules>
+		<module>applet</module>
+		<module>database</module>
+        <module>autotest</module>
+		<module>powermock</module>
+	</modules>
 
 	<properties>
 
@@ -51,6 +55,24 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${spring-test.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.9.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.9.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.7</version>
         </dependency>
 
     </dependencies>
