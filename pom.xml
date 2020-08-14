@@ -15,7 +15,8 @@
 		<module>database</module>
         <module>autotest</module>
 		<module>powermock</module>
-	</modules>
+        <module>mock-server</module>
+    </modules>
 
 	<properties>
 
