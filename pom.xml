@@ -16,6 +16,7 @@
         <module>autotest</module>
 		<module>powermock</module>
         <module>mock-server</module>
+        <module>jar-all-in-one</module>
     </modules>
 
 	<properties>
