@@ -25,6 +25,7 @@ public class ScheduledExecutorServiceExample {
                 () -> System.out.printf(msg, LocalTime.now(), Thread.currentThread().getName(), "scheduled task"),
                 2, 5, TimeUnit.SECONDS);
 
+        scheduledExecutorService.shutdown();
         System.out.printf(msg, LocalTime.now(), Thread.currentThread().getName(), "stopped");
 
     }
