@@ -22,6 +22,9 @@ public class BookController {
     @Autowired
     private BookRepository bookRepository;
 
+    @Autowired
+    private InfoImpl info;
+
     @GetMapping
     public Iterable findAll() {
         return bookRepository.findAll();
@@ -36,6 +39,11 @@ public class BookController {
     public Book findOne(@PathVariable Long id) {
         return bookRepository.findById(id)
                 .orElseThrow(BookNotFoundException::new);
+    }
+
+    @GetMapping("/info")
+    public String info() {
+        return info.getDetails();
     }
 
     @PostMapping
