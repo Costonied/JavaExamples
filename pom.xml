@@ -17,7 +17,8 @@
 		<module>powermock</module>
         <module>mock-server</module>
         <module>jar-all-in-one</module>
-    </modules>
+		<module>lombok-examples</module>
+	</modules>
 
 	<properties>
 
