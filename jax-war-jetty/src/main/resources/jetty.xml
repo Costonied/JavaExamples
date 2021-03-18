@@ -2,4 +2,14 @@
 <!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
 <Configure class="org.eclipse.jetty.webapp.WebAppContext">
 
+	<New id="ufsDeploymentInfo" class="org.eclipse.jetty.plus.jndi.Resource">
+		<Arg></Arg>
+		<Arg>some/resource/string</Arg>
+		<Arg>
+			<New class="java.lang.String">
+				<Arg>OK</Arg>
+			</New>
+		</Arg>
+	</New>
+
 </Configure>
