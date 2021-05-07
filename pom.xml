@@ -10,7 +10,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<modules>
 		<module>i18n</module>
-        <module>common</module>
+        <module>core</module>
 		<module>applet</module>
 		<module>database</module>
         <module>autotest</module>
