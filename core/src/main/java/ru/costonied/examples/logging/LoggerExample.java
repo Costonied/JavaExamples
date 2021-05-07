@@ -22,4 +22,13 @@ public class LoggerExample {
         LOGGER.info("It's alive!");
         LOGGER.info("Alive!");
     }
+
+    public static void info(Object message) {
+        if (message != null) {
+            String msg = message.toString();
+            LOGGER.info(msg);
+        } else {
+            LOGGER.info("null");
+        }
+    }
 }

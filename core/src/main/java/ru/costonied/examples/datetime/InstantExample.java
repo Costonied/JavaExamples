@@ -1,4 +1,4 @@
-package ru.costonied.examples.dates.JDK8;
+package ru.costonied.examples.datetime;
 
 
 import java.time.Instant;
