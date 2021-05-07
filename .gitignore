@@ -4,3 +4,6 @@
 out/
 target/
 /.idea/
+/node_modules/
+/package*.json
+/webpack*.js
