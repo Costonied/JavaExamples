@@ -8,7 +8,7 @@ import static ru.costonied.examples.logging.LoggerExample.info;
  * Main thread get lock to object, start child thread and join child thread.
  * But child thread try to get lock on object which already locked by main thread.
  */
-public class DeadLockExample {
+public class DeadLockWithMainThreadExample {
     private static final Object LOCK = new Object();
 
     public static void main(String[] args) throws InterruptedException {
