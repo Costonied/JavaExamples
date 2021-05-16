@@ -18,6 +18,7 @@
         <module>mock-server</module>
         <module>jar-all-in-one</module>
 		<module>lombok-examples</module>
+        <module>google</module>
 	</modules>
 
 	<properties>
