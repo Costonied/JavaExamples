@@ -8,3 +8,4 @@ target/
 /package*.json
 /webpack*.js
 /google/src/main/resources/*credentials.json
+/tmp/
