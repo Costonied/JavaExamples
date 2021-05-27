@@ -19,6 +19,7 @@
         <module>jar-all-in-one</module>
 		<module>lombok-examples</module>
         <module>google</module>
+		<module>interview-tasks</module>
 	</modules>
 
 	<properties>
