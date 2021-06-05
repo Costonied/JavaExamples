@@ -1,4 +1,4 @@
-package ru.savini.examples.interview.yandex.get_request_and_sort_numbers;
+package ru.savini.examples.interview.get_request_and_sort_numbers;
 
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;

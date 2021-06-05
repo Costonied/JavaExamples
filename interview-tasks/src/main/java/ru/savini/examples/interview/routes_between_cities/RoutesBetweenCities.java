@@ -1,4 +1,4 @@
-package ru.savini.examples.interview.yandex.routes_between_cities;
+package ru.savini.examples.interview.routes_between_cities;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package ru.savini.examples.interview.yandex.anagram;
+package ru.savini.examples.interview.anagram;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
