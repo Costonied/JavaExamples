@@ -1,4 +1,4 @@
-package ru.savini.examples.interview.yandex.delete_duplicates;
+package ru.savini.examples.interview.delete_duplicates;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

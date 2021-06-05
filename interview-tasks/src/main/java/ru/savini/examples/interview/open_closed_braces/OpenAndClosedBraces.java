@@ -1,4 +1,4 @@
-package ru.savini.examples.interview.yandex.open_closed_braces;
+package ru.savini.examples.interview.open_closed_braces;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package ru.savini.examples.interview.yandex.sequence_of_digit;
+package ru.savini.examples.interview.sequence_of_digit;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

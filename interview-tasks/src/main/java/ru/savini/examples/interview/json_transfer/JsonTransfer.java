@@ -1,4 +1,4 @@
-package ru.savini.examples.interview.yandex.json_transfer;
+package ru.savini.examples.interview.json_transfer;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
