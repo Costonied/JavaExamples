@@ -2,6 +2,7 @@ package ru.savini.apache.poi.pptx;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.xslf.usermodel.XMLSlideShow;
+import org.apache.poi.xslf.usermodel.XSLFAutoShape;
 import org.apache.poi.xslf.usermodel.XSLFShape;
 import org.apache.poi.xslf.usermodel.XSLFSlide;
 import org.apache.poi.xslf.usermodel.XSLFTextBox;
@@ -42,6 +43,11 @@ public class ReadPresentationAndReplaceTextExample {
             if (shape instanceof XSLFTextBox) {
                 XSLFTextBox textBox = (XSLFTextBox) shape;
                 replaceInXSLFTextShape(textBox, searchValue, replacement);
+                continue;
+            }
+            if (shape instanceof XSLFAutoShape) {
+                XSLFAutoShape autoShape = (XSLFAutoShape) shape;
+                replaceInXSLFTextShape(autoShape, searchValue, replacement);
             }
         }
     }
