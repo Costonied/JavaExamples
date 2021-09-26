@@ -15,6 +15,8 @@ import javax.xml.soap.SOAPPart;
 /**
  * Simple example of using SOAP
  * Original example - https://stackoverflow.com/questions/15948927/working-soap-client-example
+ *
+ * @implNote This example is not working on IBM WebSphere 8
  */
 public class SOAPClientSAAJ {
 
