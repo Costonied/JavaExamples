@@ -10,7 +10,7 @@ package ru.costonied.examples.xml;
  *  -Dcom.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.dump=true
  *  -Dcom.sun.xml.ws.transport.http.HttpAdapter.dump=true
  *  -Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dump=true
- *  -com.sun.xml.internal.ws.transport.http.HttpAdapter.dumpTreshold=999999
+ *  -Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dumpTreshold=999999
  *
  */
 public class SwitchOnCommunicationLogging {
