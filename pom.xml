@@ -20,6 +20,7 @@
 		<module>lombok-examples</module>
         <module>google</module>
 		<module>interview-tasks</module>
+		<module>jetty</module>
 	</modules>
 
 	<properties>
