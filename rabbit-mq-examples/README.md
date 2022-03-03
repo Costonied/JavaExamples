@@ -9,8 +9,8 @@ https://www.rabbitmq.com/getstarted.html
 `docker pull rabbitmq`
 
 ### Running the daemon
-`docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 -p 5672:5672 rabbitmq:3-management`
+`docker run -d --name rabbitmq -p 15672:15672 -p 5672:5672 rabbitmq:3.9-management`
 
 ### RabbitMQ UI Management
-`http://localhost:8080/`  
+`http://localhost:15672/`  
 Default credentials: guest / guest
